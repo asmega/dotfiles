@@ -1,5 +1,6 @@
 [core]
   editor = vim
+  excludesfile = ~/.gitignore
 [user]
   name = asmega
   email = asmega@ph-lee.com
