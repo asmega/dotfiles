@@ -9,3 +9,5 @@ set incsearch
 set autoindent
 
 set hidden
+
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
