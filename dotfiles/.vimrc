@@ -3,6 +3,8 @@ set shiftwidth=2
 set expandtab
 set number
 
+set ignorecase
+set smartcase
 set hlsearch
 set incsearch
 
