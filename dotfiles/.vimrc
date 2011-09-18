@@ -12,6 +12,14 @@ set autoindent
 
 set hidden
 
+set scrolloff=10
+set novisualbell
+
+set title                 "Change title of window based on file
+set ttyfast               "Smoother display for fast terminals
+set nocompatible          "Get all of vim's awesomeness
+syntax on                 "syntax highlighting
+
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
 highlight ExtraWhitespace ctermbg=red guibg=red
