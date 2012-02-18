@@ -12,8 +12,11 @@ set autoindent
 
 set hidden
 
-set scrolloff=10
+set scrolloff=5
 set novisualbell
+
+highlight ColorColumn ctermbg=4
+set colorcolumn=80
 
 set title                 "Change title of window based on file
 set ttyfast               "Smoother display for fast terminals
