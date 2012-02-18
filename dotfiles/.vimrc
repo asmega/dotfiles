@@ -12,7 +12,7 @@ set autoindent
 
 set hidden
 
-set scrolloff=10
+set scrolloff=5
 set novisualbell
 
 set title                 "Change title of window based on file
