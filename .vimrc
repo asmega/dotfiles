@@ -18,7 +18,7 @@ set novisualbell
 highlight ColorColumn ctermbg=4
 set colorcolumn=80
 
-# stop being slow when long lines
+" stop being slow when long lines
 set synmaxcol=120
 
 set title                 "Change title of window based on file
