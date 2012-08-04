@@ -1,6 +1,10 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+HISTSIZE=1000
+SAVEHIST=1000
+HISTFILE=~/.zsh_history
+
 alias be="bundle exec"
 alias ll='ls -lah'
 
