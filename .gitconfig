@@ -2,7 +2,7 @@
   editor = vim
   excludesfile = ~/.gitignore
 [user]
-  name = asmega
+  name = Phil Lee
   email = asmega@ph-lee.com
 [color]
   diff = auto
