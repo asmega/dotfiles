@@ -5,6 +5,10 @@ HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
+export EDITOR=vim # set editor to vim
+
+set -o vi # set vi ri be editor wwith ESC-v
+
 alias be="bundle exec"
 alias ll='ls -lah'
 
