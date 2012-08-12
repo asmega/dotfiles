@@ -5,6 +5,9 @@ HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
+# the thing you see at the start of every line
+PROMPT="%n@%m:%~ > "
+
 export EDITOR=vim # set editor to vim
 set -o vi # set vi ri be editor wwith ESC-v
 
