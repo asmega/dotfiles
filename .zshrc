@@ -5,6 +5,10 @@ HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
+# mac terminal tabs open in same working directory
+precmd () {print -Pn "\e]2; %~/ \a"}
+preexec () {print -Pn "\e]2; %~/ \a"}
+
 # the thing you see at the start of every line
 PROMPT="%n@%m:%~ > "
 
