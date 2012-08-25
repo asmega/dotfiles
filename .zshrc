@@ -13,7 +13,6 @@ preexec () {print -Pn "\e]2; %~/ \a"}
 PROMPT="%n@%m:%~ > "
 
 export EDITOR=vim # set editor to vim
-set -o vi # set vi ri be editor wwith ESC-v
 
 setopt extended_glob # allow globbing
 setopt autocd # no need for cd command this is implied
