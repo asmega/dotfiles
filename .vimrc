@@ -60,4 +60,4 @@ set statusline+=%P
 hi statusline term=bold,reverse cterm=bold,reverse gui=bold,reverse ctermfg=2
 
 " always show status line
-:set laststatus=2
+set laststatus=2
