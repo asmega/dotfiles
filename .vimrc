@@ -46,3 +46,18 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
+
+" ensure :E works as vim rails causes conflicts
+command! -nargs=* -bar -bang -count=0 -complete=dir E Explore <args>
+
+" set contents of statusline
+set statusline=
+set statusline+=%f
+set statusline+=%=
+set statusline+=%P
+
+" set colouring of statusline
+hi statusline term=bold,reverse cterm=bold,reverse gui=bold,reverse ctermfg=2
+
+" always show status line
+:set laststatus=2
