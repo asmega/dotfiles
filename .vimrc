@@ -38,6 +38,10 @@ set ttyfast               "Smoother display for fast terminals
 set nocompatible          "Get all of vim's awesomeness
 syntax on                 "syntax highlighting
 
+" see more of autocomplete
+set wildmenu
+set wildmode=longest,list
+
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
 highlight ExtraWhitespace ctermbg=red guibg=red
