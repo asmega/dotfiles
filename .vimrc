@@ -56,9 +56,11 @@ command! -nargs=* -bar -bang -count=0 -complete=dir E Explore <args>
 
 " set contents of statusline
 set statusline=
-set statusline+=%f
-set statusline+=%=
-set statusline+=%P
+set statusline+=%f "file
+set statusline+=%m "file modified?
+set statusline+=%r "readonly flag
+set statusline+=%= "right align
+set statusline+=%P "percentage
 
 " set colouring of statusline
 hi statusline term=bold,reverse cterm=bold,reverse gui=bold,reverse ctermfg=2
