@@ -23,6 +23,7 @@ setopt autocd # no need for cd command this is implied
 alias be="bundle exec"
 alias ll='ls -lah'
 alias ack-grep='ack'
+alias rake='noglob rake' # zsh plays funny with rake tasks
 
 # ls output is color coded
 export CLICOLOR=1
