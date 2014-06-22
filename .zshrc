@@ -1,6 +1,9 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# sorts out mouse
+defaults write -g com.apple.mouse.scaling 10
+
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
