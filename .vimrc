@@ -1,14 +1,14 @@
 call pathogen#infect()
 
 " disable arrow keys
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
-imap <up> <nop>
-imap <down> <nop>
-imap <left> <nop>
-imap <right> <nop>
+" map <up> <nop>
+" map <down> <nop>
+" map <left> <nop>
+" map <right> <nop>
+" imap <up> <nop>
+" imap <down> <nop>
+" imap <left> <nop>
+" imap <right> <nop>
 
 set tabstop=2
 set shiftwidth=2
