@@ -70,3 +70,7 @@ set laststatus=2
 
 let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['\.swp$']
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_map = '<c-l>'
+let g:ctrlp_cmd = 'CtrlPMixed'
