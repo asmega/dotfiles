@@ -74,3 +74,5 @@ let NERDTreeIgnore = ['\.swp$']
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_map = '<c-l>'
 let g:ctrlp_cmd = 'CtrlPMixed'
+
+au FileType gitcommit set tw=72
