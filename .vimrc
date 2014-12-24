@@ -76,3 +76,6 @@ let g:ctrlp_map = '<c-l>'
 let g:ctrlp_cmd = 'CtrlPMixed'
 
 au FileType gitcommit set tw=72
+
+" macro for smart quotes replacement
+let @l=":%s/’/'/g"
