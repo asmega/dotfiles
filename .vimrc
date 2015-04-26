@@ -40,7 +40,7 @@ syntax on                 "syntax highlighting
 
 " see more of autocomplete
 set wildmenu
-set wildmode=longest,list
+set wildmode=longest,list,full
 
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
