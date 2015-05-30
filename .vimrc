@@ -1,4 +1,13 @@
-call pathogen#infect()
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+Plugin 'rking/ag.vim'
+
+call vundle#end()
+filetype plugin indent on
 
 " disable arrow keys
 " map <up> <nop>
