@@ -5,6 +5,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'rking/ag.vim'
+Bundle 'scrooloose/nerdtree'
 
 call vundle#end()
 filetype plugin indent on
