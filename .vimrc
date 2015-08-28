@@ -80,7 +80,7 @@ hi statusline term=bold,reverse cterm=bold,reverse gui=bold,reverse ctermfg=2
 set laststatus=2
 
 let NERDTreeShowHidden=1
-let NERDTreeIgnore = ['\.swp$']
+let NERDTreeIgnore = ['\.swp$', '\.git$']
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_map = '<c-l>'
