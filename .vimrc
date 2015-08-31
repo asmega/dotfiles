@@ -7,6 +7,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'rking/ag.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-rails'
+Plugin 'https://github.com/kien/ctrlp.vim'
 
 call vundle#end()
 filetype plugin indent on
