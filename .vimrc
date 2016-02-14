@@ -74,6 +74,14 @@ set statusline+=%f "file
 set statusline+=%m "file modified?
 set statusline+=%r "readonly flag
 set statusline+=%= "right align
+set statusline+=%l "current line number
+set statusline+=\ 
+set statusline+=\/
+set statusline+=\ 
+set statusline+=%L "total number of lines
+set statusline+=\ 
+set statusline+=\/
+set statusline+=\ 
 set statusline+=%P "percentage
 
 " set colouring of statusline
