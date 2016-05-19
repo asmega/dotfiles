@@ -10,6 +10,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-rails'
 Plugin 'https://github.com/kien/ctrlp.vim'
 Plugin 'elixir-lang/vim-elixir'
+Plugin 'kchmck/vim-coffee-script'
 
 call vundle#end()
 filetype plugin indent on
