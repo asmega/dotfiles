@@ -11,6 +11,9 @@ Bundle 'tpope/vim-rails'
 Plugin 'https://github.com/kien/ctrlp.vim'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'pangloss/vim-javascript'
+Plugin 'othree/yajs.vim'
+Plugin 'mxw/vim-jsx'
 
 call vundle#end()
 filetype plugin indent on
