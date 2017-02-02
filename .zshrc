@@ -25,6 +25,7 @@ alias ll='ls -lah'
 alias ack-grep='ack'
 alias rake='noglob rake' # zsh plays funny with rake tasks
 alias g='git'
+alias gti="git"
 alias iphone="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
 
 # ls output is color coded
