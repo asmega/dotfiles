@@ -108,3 +108,4 @@ au BufRead,BufNewFile *.es6 setfiletype javascript
 
 " macro for smart quotes replacement
 let @l=":%s/’/'/g"
+let @k=':%s/“\|”/"/g'
