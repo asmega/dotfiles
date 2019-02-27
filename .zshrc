@@ -1,3 +1,7 @@
+autoload -Uz compinit
+compinit
+source <(kubectl completion zsh)
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
