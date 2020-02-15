@@ -1,6 +1,10 @@
 autoload -Uz compinit
 compinit
-source <(kubectl completion zsh)
+
+if (which kubectl &> /dev/null)
+then
+  source <(kubectl completion zsh)
+fi
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
