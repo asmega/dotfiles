@@ -14,6 +14,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/yajs.vim'
 Plugin 'mxw/vim-jsx'
+Plugin 'dense-analysis/ale'
 
 call vundle#end()
 filetype plugin indent on
