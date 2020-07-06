@@ -16,3 +16,4 @@
   co = checkout
   uberlog = log --pretty=format:\"%C(green)%h\\ %C(yellow)[%ad]%C(auto)%d\\ %Creset%s%Cred\\ [%cn]\" --decorate --date=relative
   quicklog = log --oneline --decorate --relative-date
+  st = status
