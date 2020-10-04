@@ -12,8 +12,8 @@ eval "$(rbenv init -)"
 # sorts out mouse
 defaults write -g com.apple.mouse.scaling 10
 
-HISTSIZE=100000
-SAVEHIST=100000
+HISTSIZE=1000
+SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
 # mac terminal tabs open in same working directory
