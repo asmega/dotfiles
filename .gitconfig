@@ -3,7 +3,7 @@
   excludesfile = ~/.gitignore
 [user]
   name = Phil Lee
-  email = asmega@gmail.com
+  email = asmega@users.noreply.github.com
 [color]
   diff = auto
   status = auto
