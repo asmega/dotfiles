@@ -35,6 +35,7 @@ alias rake='noglob rake' # zsh plays funny with rake tasks
 alias g='git'
 alias gti="git"
 alias iphone="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
+alias prunedocker='docker image prune -a --filter "until=72h"'
 
 # ls output is color coded
 export CLICOLOR=1
