@@ -12,6 +12,8 @@ wezterm.on('gui-startup', function(cmd)
   window:gui_window():maximize()
 end)
 
+config.scrollback_lines = 10000
+
 config.use_fancy_tab_bar = false
 
 config.colors = {
