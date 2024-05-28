@@ -48,6 +48,11 @@ config.keys = {
     mods = 'CMD|SHIFT',
     action = act.MoveTabRelative(1)
   },
+  {
+    key = 'k',
+    mods = 'CMD',
+    action = act.ClearScrollback 'ScrollbackAndViewport',
+  },
 }
 
 -- and finally, return the configuration to wezterm
