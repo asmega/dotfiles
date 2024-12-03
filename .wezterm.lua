@@ -56,7 +56,24 @@ config.keys = {
 }
 
 -- config.selection_word_boundary = '.,'
-config.selection_word_boundary = " \t\n{}[]()\"'`:;"
+config.selection_word_boundary = " \t\n{}[]()\"'`:;,|"
+
+config.mouse_bindings = {
+  -- Change the default click behavior so that it only selects
+  -- text and doesn't open hyperlinks
+  {
+    event = { Up = { streak = 1, button = 'Left' } },
+    mods = 'NONE',
+    action = act.CompleteSelection 'ClipboardAndPrimarySelection',
+  },
+
+  -- and make CMD-Click open hyperlinks
+  {
+    event = { Up = { streak = 1, button = 'Left' } },
+    mods = 'CMD',
+    action = act.OpenLinkAtMouseCursor,
+  },
+}
 
 -- and finally, return the configuration to wezterm
 return config
