@@ -22,10 +22,16 @@ config.colors = {
       bg_color = '#406d24',
       fg_color = '#c0c0c0',
     }
-  }
+  },
+  cursor_bg = '#ff0000'
 }
 
 local act = wezterm.action
+
+config.default_cursor_style = 'BlinkingBlock'
+config.cursor_blink_ease_in = 'Constant'
+config.cursor_blink_ease_out = 'Constant'
+config.cursor_blink_rate = 500
 
 config.keys = {
   {
