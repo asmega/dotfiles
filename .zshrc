@@ -23,7 +23,7 @@ preexec () {print -Pn "\e]2; %~/ \a"}
 # the thing you see at the start of every line
 PROMPT="%n@%m:%~ > "
 
-export EDITOR=vim # set editor to vim
+export EDITOR=nvim # set editor to vim
 
 setopt extended_glob # allow globbing
 setopt autocd # no need for cd command this is implied
@@ -36,6 +36,9 @@ alias g='git'
 alias gti="git"
 alias iphone="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
 alias prunedocker='docker image prune -a --filter "until=72h"'
+alias vim="nvim"
+alias vi="nvim"
+alias ovim="/usr/bin/vim"
 
 # ls output is color coded
 export CLICOLOR=1
